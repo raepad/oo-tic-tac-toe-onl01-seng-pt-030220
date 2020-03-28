@@ -121,7 +121,7 @@ class TicTacToe
     won? || full?
   end
 
-  def winner(board)
+  def winner
     # def winner(board)
     # if won?(board)
     #   winning_line = won?(board)
