@@ -118,7 +118,7 @@ class TicTacToe
   end
   
   def over?
-    binding.pry
+    
     won? || draw?
   end
 
