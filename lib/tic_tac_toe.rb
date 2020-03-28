@@ -154,8 +154,8 @@ class TicTacToe
       #break
     end
     
-    if won? == true
-      puts "Congratulations, #{winner(board)}! You won!"
+    if won?
+      puts "Congratulations, #{winner}! You won!"
     elsif draw? == true
       puts "Cat's Game!"
     end
