@@ -1,4 +1,4 @@
-
+require 'pry'
 class TicTacToe
   
   def initialize
@@ -90,6 +90,7 @@ class TicTacToe
   def won?
     a = WIN_COMBINATIONS.find{|combo| @board[combo[0]] == "X" && @board[combo[1]] == "X" && @board[combo[2]] == "X"}
     b = WIN_COMBINATIONS.find{|combo| @board[combo[0]] == "O" && @board[combo[1]] == "O" && @board[combo[2]] == "O"}
+    binding.pry
     a || b
     # WIN_COMBINATIONS.each do |combo|
     #   index0 = combo[0]
